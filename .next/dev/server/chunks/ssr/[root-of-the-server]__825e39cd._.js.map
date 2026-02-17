@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/01-starting-project%281%29/app/page.js"],"sourcesContent":["export default function HomePage() {\n  return (\n    <div id=\"home\">\n      <h1>Next.js Routing & Page Rendering</h1>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,6RAAC;QAAI,IAAG;kBACN,cAAA,6RAAC;sBAAG;;;;;;;;;;;AAGV"}}]
+}
