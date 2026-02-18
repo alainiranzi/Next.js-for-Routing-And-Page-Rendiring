@@ -1,2 +1,15 @@
-[00:00:04.893] Server  LOG     ✓ Ready in 3.5s
-[00:00:08.188] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.852] Server  LOG     ✓ Ready in 3.4s
+[00:00:20.111] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.667] Server  ERROR   ⨯ Error: The default export is not a React Component in "/news/page"
+[00:00:39.818] Server  ERROR   ⨯ Error: The default export is not a React Component in "/news/page"
+[00:00:42.858] Server  LOG     ○ Compiling /_error ...
+[00:00:50.592] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/news/page"
+[00:01:10.687] Server  ERROR   ⨯ Error: The default export is not a React Component in "/news/[id]/page"
+[00:01:12.512] Server  ERROR   ⨯ Error: The default export is not a React Component in "/news/[id]/page"
+[00:01:13.350] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/news/[id]/page"
+[00:02:43.773] Server  ERROR   ⨯ Error: The default export is not a React Component in "/news/page"
+[00:02:45.438] Server  ERROR   ⨯ Error: The default export is not a React Component in "/news/page"
+[00:02:46.193] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/news/page"
+[00:06:47.650] Server  LOG     ✓ Compiled in 263ms
+[00:06:52.117] Server  LOG     ✓ Compiled in 288ms
+[00:06:57.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
