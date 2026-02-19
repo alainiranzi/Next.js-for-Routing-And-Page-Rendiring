@@ -14,7 +14,7 @@ body {
 }
 
 ul {
-  margin: 0;
+  margin: 1rem 0;
   padding: 0;
   list-style: none;
 }
@@ -43,7 +43,7 @@ ul {
   text-decoration: none;
 }
 
-#main-header ul {
+.main-header ul {
   gap: 2rem;
   font-weight: bold;
   display: flex;
