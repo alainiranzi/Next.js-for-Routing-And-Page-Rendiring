@@ -1,4 +1,687 @@
-[00:00:06.599] Server  LOG     ✓ Ready in 4.3s
-[00:00:15.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.249] Server  WARN    Error: Route "/news/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:17.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.149] Server  LOG     ✓ Ready in 4.2s
+[00:00:10.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:48.865] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:48.877] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:48.893] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:48.903] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:48.918] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:48.952] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:48.987] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:49.011] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:49.064] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:49.088] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:49.113] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:49.196] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:49.839] Browser ERROR   ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '@/components/MainHeader'
+> 1 | import MainHeader from '@/components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+Import map: aliased to relative './components/MainHeader' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:58.445] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.457] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.471] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.486] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.503] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.519] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.534] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.546] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.559] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.569] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.585] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.595] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:58.834] Browser ERROR   ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:04.835] Browser ERROR   ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:16.382] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.396] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.412] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.431] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.449] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.467] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.479] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.487] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.500] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.512] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.524] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.536] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:16.844] Browser ERROR   ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve '../components/MainHeader'
+> 1 | import MainHeader from '../components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:22.113] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.131] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.158] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.166] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.180] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.192] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.206] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.228] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.246] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.261] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.274] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.284] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:22.843] Browser ERROR   ./Desktop/01-starting-project(1)/app/layout.js:1:1
+Module not found: Can't resolve './components/MainHeader'
+> 1 | import MainHeader from './components/MainHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import './globals.css';
+  3 |
+  4 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:06:23.978] Server  LOG     ✓ Compiled in 425ms
+[00:08:08.944] Server  LOG     ✓ Compiled in 74ms
