@@ -198,4 +198,9 @@ ul {
   margin-top: 3rem;
 }
 
+.error, h1 {
+  color: red;
+  font-size: 2.5rem;
+}
+
 /*# sourceMappingURL=Desktop_01-starting-project%281%29_app_globals_4904e93a.css.map*/
