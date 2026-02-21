@@ -1,10 +1,13 @@
-
 import { DUMMY_NEWS } from "@/dummy-newss";
 
-export default function NewsDetailPage({ params }) {
-  const newsSlug = params.slug;
+export default async function NewsDetailPage({ params }) {
 
-  const newsItem = DUMMY_NEWS.find(news => news.slug === newsSlug);
+  const resolvedParams = await params;
+  const newsSlug = resolvedParams.slug;
+
+  const newsItem = DUMMY_NEWS.find(
+    (news) => news.slug === newsSlug
+  );
 
   if (!newsItem) {
     return <h2>News not found.</h2>;
@@ -13,9 +16,14 @@ export default function NewsDetailPage({ params }) {
   return (
     <article className="news-article">
       <header>
-        <img src={`/images/news/${newsItem.image}`} alt={newsItem.title} />
+        <img
+          src={`/images/news/${newsItem.image}`}
+          alt={newsItem.title}
+        />
         <h1>{newsItem.title}</h1>
-        <time dateTime={newsItem.date}>{newsItem.date}</time>
+        <time dateTime={newsItem.date}>
+          {newsItem.date}
+        </time>
       </header>
       <p>{newsItem.content}</p>
     </article>

@@ -1,4 +1,10 @@
-[00:00:03.552] Server  LOG     ✓ Ready in 2.5s
-[00:00:09.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.699] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:40.311] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:03.841] Server  LOG     ✓ Ready in 2.7s
+[00:00:07.322] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:07.323] Server  LOG     PARAMS: {}
+[00:00:07.439] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:07.441] Server  LOG     SLUG TYPE: "undefined"
+[00:00:07.498] Server  LOG     DUMMY_NEWS: [{...},{...},{...},{...},{...}]
+[00:00:07.500] Server  LOG     FINAL SLUG: undefined
+[00:00:07.502] Server  LOG     FOUND ITEM: undefined
+[00:00:08.402] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:25.577] Server  LOG     ✓ Compiled in 138ms
