@@ -131,6 +131,15 @@ ul {
   background-color: #2d2d2b;
 }
 
+.news-list li {
+  margin-bottom: 1rem;
+}
+
+.news-article header img {
+  max-width: 100%;
+  height: auto;
+}
+
 .modal-backdrop {
   position: fixed;
   top: 0;

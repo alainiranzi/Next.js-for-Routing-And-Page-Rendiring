@@ -1,3 +1,4 @@
+
 export const DUMMY_NEWS = [
   {
     id: 'n1',
