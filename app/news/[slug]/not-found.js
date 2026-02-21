@@ -1,8 +1,8 @@
-export default function NotFoundPage() {
+export default function NewsNotFoundPage() {
     return (
         <div id="error">
             <h1>Not Found</h1>
-            <p>The Requested resource could not be found!</p>
+            <p>Unfortunately, we could not find the requested article.</p>
         </div>
     );
 }
