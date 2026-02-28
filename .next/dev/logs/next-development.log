@@ -1,11 +1,17 @@
-[00:00:05.810] Server  LOG     ✓ Ready in 4.2s
-[00:00:15.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.203] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:37.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:00.724] Server  LOG     ✓ Compiled in 64ms
-[00:01:08.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:41.340] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:01:53.231] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:01:54.997] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:03.763] Server  LOG     ✓ Compiled in 72ms
-[00:02:10.326] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:04.840] Server  LOG     ✓ Ready in 3.4s
+[00:00:10.160] Server  ERROR   ⨯ Error: The default export is not a React Component in "/archive/page"
+[00:00:11.314] Server  ERROR   ⨯ Error: The default export is not a React Component in "/archive/page"
+[00:00:13.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.595] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/archive/page"
+[00:00:20.814] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:29.385] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:45.815] Server  LOG     ✓ Compiled in 208ms
+[00:00:45.932] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:55.741] Server  LOG     ✓ Compiled in 16ms
+[00:00:55.837] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:08.318] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:34.821] Server  LOG     ✓ Compiled in 47ms
+[00:04:34.953] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:05.708] Server  LOG     ✓ Compiled in 449ms
+[00:06:06.131] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:54.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
