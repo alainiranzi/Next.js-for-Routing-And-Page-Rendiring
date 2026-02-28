@@ -1,5 +1,15 @@
+import { getAvailableNewsYears } from "@/lib/news";
+
 export default function ArchivePage() {
+    const links = getAvailableNewsYears();
     return (
-        <h1>Archive Page</h1>
+       <header id="archive-header">
+        <nav>
+            <ul>
+                
+                </ul> 
+        </nav>
+         </header>
     );
+
 }
