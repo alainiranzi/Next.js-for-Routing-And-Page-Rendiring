@@ -1,17 +1,87 @@
-[00:00:04.840] Server  LOG     ✓ Ready in 3.4s
-[00:00:10.160] Server  ERROR   ⨯ Error: The default export is not a React Component in "/archive/page"
-[00:00:11.314] Server  ERROR   ⨯ Error: The default export is not a React Component in "/archive/page"
-[00:00:13.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.595] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/archive/page"
-[00:00:20.814] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:29.385] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:45.815] Server  LOG     ✓ Compiled in 208ms
-[00:00:45.932] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:55.741] Server  LOG     ✓ Compiled in 16ms
-[00:00:55.837] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:01:08.318] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:04:34.821] Server  LOG     ✓ Compiled in 47ms
-[00:04:34.953] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:05.708] Server  LOG     ✓ Compiled in 449ms
-[00:06:06.131] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:08:54.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.236] Server  LOG     ✓ Ready in 3.1s
+[00:00:07.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.888] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:23.949] Server  ERROR   ⨯ ReferenceError: getNewsForYear is not defined
+[00:00:24.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.743] Browser ERROR   uncaughtError: ReferenceError: getNewsForYear is not defined
+[00:01:51.416] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
+Module not found: Can't resolve '@/components/NewsList'
+> 1 | import NewsList from "@/components/NewsList";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getNewsForYear } from "@/lib/news";
+  3 |
+  4 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:51.427] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
+Module not found: Can't resolve '@/components/NewsList'
+> 1 | import NewsList from "@/components/NewsList";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getNewsForYear } from "@/lib/news";
+  3 |
+  4 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:51.439] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import NewsList from "@/components/NewsList";
+> 2 | import { getNewsForYear } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function FilteredNewsPage({ params }) {
+  5 |     const newsYear = params.year;
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:51.451] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import NewsList from "@/components/NewsList";
+> 2 | import { getNewsForYear } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function FilteredNewsPage({ params }) {
+  5 |     const newsYear = params.year;
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:51.860] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
+Module not found: Can't resolve '@/components/NewsList'
+> 1 | import NewsList from "@/components/NewsList";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getNewsForYear } from "@/lib/news";
+  3 |
+  4 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:51.860] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import NewsList from "@/components/NewsList";
+> 2 | import { getNewsForYear } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function FilteredNewsPage({ params }) {
+  5 |     const newsYear = params.year;
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
