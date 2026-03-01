@@ -1,45 +1,15 @@
-[00:00:04.236] Server  LOG     ✓ Ready in 3.1s
-[00:00:07.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.888] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:23.949] Server  ERROR   ⨯ ReferenceError: getNewsForYear is not defined
-[00:00:24.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:24.743] Browser ERROR   uncaughtError: ReferenceError: getNewsForYear is not defined
-[00:01:51.416] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:01:51.427] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:01:51.439] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:2:1
+[00:00:03.551] Server  LOG     ✓ Ready in 2.6s
+[00:00:08.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:46.563] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:52.544] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:30.126] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
 Module not found: Can't resolve '@/lib/news'
-  1 | import NewsList from "@/components/NewsList";
-> 2 | import { getNewsForYear } from "@/lib/news";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   3 |
-  4 | export default function FilteredNewsPage({ params }) {
-  5 |     const newsYear = params.year;
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
 
 Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
 
@@ -47,14 +17,14 @@ Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-star
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:01:51.451] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:2:1
+
+./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
 Module not found: Can't resolve '@/lib/news'
-  1 | import NewsList from "@/components/NewsList";
-> 2 | import { getNewsForYear } from "@/lib/news";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-  5 |     const newsYear = params.year;
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
 
 Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
 
@@ -62,26 +32,842 @@ Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-star
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:01:51.860] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-https://nextjs.org/docs/messages/module-not-found
-[00:01:51.860] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:2:1
+[00:01:30.324] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
 Module not found: Can't resolve '@/lib/news'
-  1 | import NewsList from "@/components/NewsList";
-> 2 | import { getNewsForYear } from "@/lib/news";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   3 |
-  4 | export default function FilteredNewsPage({ params }) {
-  5 |     const newsYear = params.year;
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
 
 Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
 
 https://nextjs.org/docs/messages/module-not-found
+[00:01:30.324] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:30.898] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:30.899] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:31.295] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:31.295] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:31.863] Browser ERROR   uncaughtError: Error: ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.013] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:32.013] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:32.124] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:32.124] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:02.970] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/data/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/data/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './data/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:02.980] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/data/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/data/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './data/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:02.997] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:03.007] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:03.226] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/data/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/data/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './data/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:03.227] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:15.474] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:15.483] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:15.502] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:15.512] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:16.218] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Module not found: Can't resolve '@/lib/news'
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:16.218] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/lib/news'
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+Import map: aliased to relative './lib/news' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.228] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:04:46.228] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Export getLatestNews doesn't exist in target module
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+The export getLatestNews was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:03.835] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+
+./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Export getLatestNews doesn't exist in target module
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+The export getLatestNews was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:05:04.350] Browser ERROR   uncaughtError: Error: ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:05:04.529] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:04.529] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Export getLatestNews doesn't exist in target module
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+The export getLatestNews was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:04.529] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:04.529] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Export getLatestNews doesn't exist in target module
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+The export getLatestNews was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:07.794] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+
+./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Export getLatestNews doesn't exist in target module
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+The export getLatestNews was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:05:08.278] Browser ERROR   uncaughtError: Error: ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:05:08.471] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:08.472] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Export getLatestNews doesn't exist in target module
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+The export getLatestNews was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:08.472] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:08.472] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@latest/default.js:1:1
+Export getLatestNews doesn't exist in target module
+> 1 | import { getLatestNews } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function LatestNewsPage() {
+  4 | const latestNews = getLatestNews();
+
+The export getLatestNews was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:47.518] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/lib/news.js:1:1
+Module not found: Can't resolve '@/dummy-news'
+> 1 | import { DUMMY_NEWS } from '@/dummy-news';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export function getAllNews() {
+  4 |   return DUMMY_NEWS;
+
+Import map: aliased to relative './dummy-news' inside of [project]/Desktop/01-starting-project(1)
+
+
+Import traces:
+  #1 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@archive/page.js
+
+  #2 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@latest/default.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:47.566] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/lib/news.js:1:1
+Module not found: Can't resolve '@/dummy-news'
+> 1 | import { DUMMY_NEWS } from '@/dummy-news';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export function getAllNews() {
+  4 |   return DUMMY_NEWS;
+
+Import map: aliased to relative './dummy-news' inside of [project]/Desktop/01-starting-project(1)
+
+
+Import traces:
+  #1 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@archive/page.js
+
+  #2 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@latest/default.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:48.233] Browser ERROR   ./Desktop/01-starting-project(1)/lib/news.js:1:1
+Module not found: Can't resolve '@/dummy-news'
+> 1 | import { DUMMY_NEWS } from '@/dummy-news';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export function getAllNews() {
+  4 |   return DUMMY_NEWS;
+
+Import map: aliased to relative './dummy-news' inside of [project]/Desktop/01-starting-project(1)
+
+Import traces:
+  #1 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@archive/page.js
+
+  #2 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@latest/default.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:48.233] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsMonths?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:08:18.625] Browser ERROR   ./Desktop/01-starting-project(1)/lib/news.js:1:1
+Export DUMMY_NEWS doesn't exist in target module
+> 1 | import { DUMMY_NEWS } from '@/dummy-news';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export function getAllNews() {
+  4 |   return DUMMY_NEWS;
+
+The export DUMMY_NEWS was not found in module [project]/Desktop/01-starting-project(1)/dummy-news.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  #1 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@archive/page.js
+
+  #2 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@latest/default.js
+[00:08:18.626] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsMonths?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:10:19.607] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/lib/news.js:1:1
+Module not found: Can't resolve '@/dummy-news'
+> 1 | import { DUMMY_NEWS } from '@/dummy-news';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export function getAllNews() {
+  4 |   return DUMMY_NEWS;
+
+Import map: aliased to relative './dummy-news' inside of [project]/Desktop/01-starting-project(1)
+
+
+Import traces:
+  #1 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@archive/page.js
+
+  #2 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@latest/default.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:19.649] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/lib/news.js:1:1
+Module not found: Can't resolve '@/dummy-news'
+> 1 | import { DUMMY_NEWS } from '@/dummy-news';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export function getAllNews() {
+  4 |   return DUMMY_NEWS;
+
+Import map: aliased to relative './dummy-news' inside of [project]/Desktop/01-starting-project(1)
+
+
+Import traces:
+  #1 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@archive/page.js
+
+  #2 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@latest/default.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:20.233] Browser ERROR   ./Desktop/01-starting-project(1)/lib/news.js:1:1
+Module not found: Can't resolve '@/dummy-news'
+> 1 | import { DUMMY_NEWS } from '@/dummy-news';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export function getAllNews() {
+  4 |   return DUMMY_NEWS;
+
+Import map: aliased to relative './dummy-news' inside of [project]/Desktop/01-starting-project(1)
+
+Import traces:
+  #1 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@archive/page.js
+
+  #2 [Server Component]:
+    ./Desktop/01-starting-project(1)/lib/news.js
+    ./Desktop/01-starting-project(1)/app/archive/@latest/default.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:20.233] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsMonths?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:10:34.518] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/news/[slug]/page.js:2:1
+Module not found: Can't resolve '@/dummy-newss'
+  1 | import { notFound } from "next/navigation";
+> 2 | import { DUMMY_NEWS } from "@/dummy-newss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+  5 |   const newsSlug = params.slug;
+
+Import map: aliased to relative './dummy-newss' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:34.549] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/news/[slug]/page.js:2:1
+Module not found: Can't resolve '@/dummy-newss'
+  1 | import { notFound } from "next/navigation";
+> 2 | import { DUMMY_NEWS } from "@/dummy-newss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+  5 |   const newsSlug = params.slug;
+
+Import map: aliased to relative './dummy-newss' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:34.594] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/news/page.js:4:1
+Module not found: Can't resolve '@/dummy-newss'
+  2 | import Link from "next/link";
+  3 |
+> 4 | import { DUMMY_NEWS } from "@/dummy-newss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function NewsPage() {
+  7 | return (
+
+Import map: aliased to relative './dummy-newss' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:34.623] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/news/page.js:4:1
+Module not found: Can't resolve '@/dummy-newss'
+  2 | import Link from "next/link";
+  3 |
+> 4 | import { DUMMY_NEWS } from "@/dummy-newss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function NewsPage() {
+  7 | return (
+
+Import map: aliased to relative './dummy-newss' inside of [project]/Desktop/01-starting-project(1)
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:36.226] Browser ERROR   ./Desktop/01-starting-project(1)/app/news/page.js:4:1
+Module not found: Can't resolve '@/dummy-newss'
+  2 | import Link from "next/link";
+  3 |
+> 4 | import { DUMMY_NEWS } from "@/dummy-newss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function NewsPage() {
+  7 | return (
+
+Import map: aliased to relative './dummy-newss' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:36.226] Browser ERROR   ./Desktop/01-starting-project(1)/app/news/[slug]/page.js:2:1
+Module not found: Can't resolve '@/dummy-newss'
+  1 | import { notFound } from "next/navigation";
+> 2 | import { DUMMY_NEWS } from "@/dummy-newss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+  5 |   const newsSlug = params.slug;
+
+Import map: aliased to relative './dummy-newss' inside of [project]/Desktop/01-starting-project(1)
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:36.226] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsMonths?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:10:38.276] Server  LOG     ✓ Compiled in 134ms
+[00:10:39.225] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsMonths?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:13:41.738] Server  LOG     ✓ Compiled in 12ms
+[00:13:42.515] Server  ERROR   ⨯ ReferenceError: NewsList is not defined
+[00:13:44.428] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:45.269] Browser ERROR   uncaughtError: ReferenceError: NewsList is not defined
+[00:14:08.233] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export getAvailableNewsYears doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { getAvailableNewsYears } from "@/lib/news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export getAvailableNewsYears was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsMonths?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:18:34.504] Server  LOG     ✓ Compiled in 61ms
+[00:18:35.102] Server  ERROR   ⨯ ReferenceError: NewsList is not defined
+[00:18:36.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:36.544] Browser ERROR   uncaughtError: ReferenceError: NewsList is not defined
+[00:19:29.496] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/page.js:2:1
+Export default doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import getAvailableNewsYears from "@/lib/news"; 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ArchivePage() {
+  5 |     const links = getAvailableNewsYears();
+
+The export default was not found in module [project]/Desktop/01-starting-project(1)/lib/news.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:19:46.212] Server  LOG     ✓ Compiled in 15ms
+[00:19:46.773] Server  ERROR   ⨯ ReferenceError: NewsList is not defined
+[00:19:47.399] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:47.590] Browser ERROR   uncaughtError: ReferenceError: NewsList is not defined
+[00:19:56.343] Server  ERROR   ⨯ ReferenceError: NewsList is not defined
+[00:19:56.888] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:57.057] Browser ERROR   uncaughtError: ReferenceError: NewsList is not defined
+[00:24:39.698] Server  LOG     ✓ Compiled in 48ms
+[00:24:40.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:25.245] Server  LOG     ✓ Compiled in 17ms
+[00:27:38.085] Server  LOG     ✓ Compiled in 38ms
+[00:29:31.509] Server  LOG     ✓ Compiled in 205ms
+[00:31:14.195] Server  LOG     ✓ Compiled in 41ms
+[00:31:35.043] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:31:36.191] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:40.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
