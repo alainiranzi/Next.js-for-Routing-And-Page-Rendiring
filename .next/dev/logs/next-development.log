@@ -1,131 +1,28 @@
-[00:00:05.014] Server  LOG     ✓ Ready in 3.5s
-[00:00:12.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:20.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:26.260] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:26.478] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:26.690] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:26.690] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:27.967] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:28.063] Server  ERROR   ⨯ ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:28.742] Browser ERROR   uncaughtError: Error: ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:28.931] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:29.084] Browser ERROR   ./Desktop/01-starting-project(1)/app/archive/@archive/[year]/page.js:1:1
-Module not found: Can't resolve '@/components/NewsList'
-> 1 | import NewsList from "@/components/NewsList";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import { getNewsForYear } from "@/lib/news";
-  3 |
-  4 | export default function FilteredNewsPage({ params }) {
-
-Import map: aliased to relative './components/NewsList' inside of [project]/Desktop/01-starting-project(1)
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:52.668] Server  LOG     ✓ Compiled in 884ms
-[00:00:58.368] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:58.455] Server  ERROR   ⨯ ReferenceError: NewsList is not defined
-[00:00:59.710] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:59.966] Browser ERROR   uncaughtError: ReferenceError: NewsList is not defined
-[00:01:45.558] Server  LOG     ✓ Compiled in 46ms
-[00:01:46.403] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:01:50.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:28.081] Server  LOG     ✓ Compiled in 24ms
-[00:03:28.816] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:03:36.017] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:03:36.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:20.225] Server  LOG     ✓ Compiled in 82ms
-[00:06:21.538] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:30.287] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:31.396] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:38.341] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:38.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:41.508] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:42.158] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.339] Server  LOG     ✓ Ready in 1601ms
+[00:00:04.481] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:06.107] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.226] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:15.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:54.473] Server  LOG     ✓ Compiled in 56ms
+[00:01:54.903] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:55.073] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.342] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.909] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:09.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:10.901] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:12.441] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:12.622] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:13.836] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:14.049] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:41.533] Server  LOG     ✓ Compiled in 165ms
+[00:06:42.244] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:42.402] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:53.603] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:53.725] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:56.176] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:07:02.545] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:09.662] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:17.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:32.192] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:07:32.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
