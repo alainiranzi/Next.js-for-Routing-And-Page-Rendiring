@@ -16,7 +16,7 @@ export default function LatestNewsPage() {
               key={news.slug}
               style={{
                 width: "210px",
-                border: "1px solid #ccc",
+                border: "1px solid #a9a5a5",
                 padding: "8px",
                 borderRadius: "8px",
               }}
