@@ -15,7 +15,7 @@ export default function LatestNewsPage() {
             <div
               key={news.slug}
               style={{
-                width: "200px",
+                width: "210px",
                 border: "1px solid #ccc",
                 padding: "8px",
                 borderRadius: "8px",
