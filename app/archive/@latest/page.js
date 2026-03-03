@@ -24,7 +24,7 @@ export default function LatestNewsPage() {
               <img
                 src={`/images/news/${news.image}`}
                 alt={news.title}
-                style={{ width: "100%", borderRadius: "4px" }}
+                style={{ width: "99%", borderRadius: "4px" }}
               />
               <h3>{news.title}</h3>
               <p>{news.date}</p>
