@@ -1,17 +1,24 @@
 {
-  "name": "routing-rendering",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "name": "01starting",
+  "version": "1.0.0",
+  "main": "dummy-news.js",
+  "directories": {
+    "lib": "lib"
   },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "tailwind:init": "tailwindcss init -p"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "next": "^16.1.6",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.27",
