@@ -1,7 +1,174 @@
-[00:00:04.495] Server  LOG     ✓ Ready in 2.6s
-[00:00:12.785] Server  LOG     ○ Compiling / ...
-[00:00:16.219] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:26.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:32.476] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:47.138] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:02:08.497] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:03.962] Server  LOG     ✓ Ready in 2.6s
+[00:00:07.302] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.842] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:57.887] Server  LOG     ✓ Compiled in 473ms
+[00:02:59.011] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:59.096] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:38.030] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:38.099] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:39.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:46.132] Server  LOG     ✓ Compiled in 370ms
+[00:03:48.757] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:48.758] Server  LOG     Params: {}
+[00:03:48.838] Server  ERROR   ⨯ ReferenceError: DUMMY_NEWS is not defined
+[00:03:56.413] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:56.414] Server  LOG     Params: {}
+[00:03:56.451] Server  ERROR   ⨯ ReferenceError: DUMMY_NEWS is not defined
+[00:03:57.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:57.486] Browser ERROR   uncaughtError: ReferenceError: DUMMY_NEWS is not defined
+[00:04:05.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:11.287] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:13.818] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:13.819] Server  LOG     Params: {}
+[00:04:13.871] Server  ERROR   ⨯ ReferenceError: DUMMY_NEWS is not defined
+[00:04:14.194] Browser ERROR   uncaughtError: ReferenceError: DUMMY_NEWS is not defined
+[00:05:06.682] Server  LOG     ✓ Compiled in 152ms
+[00:05:09.888] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:09.888] Server  LOG     Params: {}
+[00:05:09.965] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:10.050] Server  LOG     News not found!
+[00:05:12.175] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:29.360] Server  LOG     ✓ Compiled in 32ms
+[00:05:31.267] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:31.267] Server  LOG     Params: {}
+[00:05:31.338] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:31.373] Server  LOG     News not found!
+[00:05:57.350] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:57.350] Server  LOG     Params: {}
+[00:05:57.396] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:57.400] Server  LOG     News not found!
+[00:07:56.902] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:07:56.902] Server  LOG     Params: {}
+[00:07:56.923] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:07:56.925] Server  LOG     News not found!
+[00:07:57.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:05.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:19.549] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:19.550] Server  LOG     Params: {}
+[00:08:19.571] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:19.573] Server  LOG     News not found!
+[00:08:24.999] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:24.999] Server  LOG     Params: {}
+[00:08:25.049] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:25.051] Server  LOG     News not found!
+[00:10:11.176] Server  LOG     ✓ Compiled in 222ms
+[00:10:15.147] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:10:15.147] Server  LOG     PARAMS: {}
+[00:10:15.280] Server  ERROR   ⨯ ReferenceError: DUMMY_NEWS is not defined
+[00:10:19.977] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:10:19.977] Server  LOG     PARAMS: {}
+[00:10:20.031] Server  ERROR   ⨯ ReferenceError: DUMMY_NEWS is not defined
+[00:10:21.317] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:21.643] Browser ERROR   uncaughtError: ReferenceError: DUMMY_NEWS is not defined
+[00:11:53.612] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve '../../data/dummy-news'
+> 1 | import { DUMMY_NEWS } from "../../data/dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:53.620] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve '../../data/dummy-news'
+> 1 | import { DUMMY_NEWS } from "../../data/dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:55.442] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve '../../data/dummy-news'
+> 1 | import { DUMMY_NEWS } from "../../data/dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:12:07.648] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve './dummy-news'
+> 1 | import { DUMMY_NEWS } from "./dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:12:07.657] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve './dummy-news'
+> 1 | import { DUMMY_NEWS } from "./dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:12:07.790] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve './dummy-news'
+> 1 | import { DUMMY_NEWS } from "./dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:12:12.313] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve '../dummy-news'
+> 1 | import { DUMMY_NEWS } from "../dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:12:12.326] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve '../dummy-news'
+> 1 | import { DUMMY_NEWS } from "../dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:12:12.447] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/news/[slug]/page.js:1:1
+Module not found: Can't resolve '../dummy-news'
+> 1 | import { DUMMY_NEWS } from "../dummy-news";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { notFound } from "next/navigation";
+  3 |
+  4 | export default function NewsDetailPage({ params }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:12:18.596] Server  LOG     ✓ Compiled in 46ms
+[00:12:20.992] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:12:20.992] Server  LOG     PARAMS: {}
+[00:12:21.039] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:12:21.041] Server  LOG     News not found!
+[00:12:21.866] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
