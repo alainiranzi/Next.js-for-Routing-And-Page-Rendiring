@@ -1,12 +1,490 @@
-[00:00:04.259] Server  LOG     ✓ Ready in 2.9s
-[00:00:08.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.470] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:11.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:20.356] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:29.934] Server  WARN    Error: Route "/news/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:29.935] Server  LOG     PARAMS: {}
-[00:00:30.094] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:30.102] Server  LOG     News not found!
-[00:00:38.588] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:41.142] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:05.926] Server  LOG     ✓ Ready in 4.1s
+[00:00:08.809] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:00:10.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.643] Browser ERROR   uncaughtError: Error: ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:00:10.908] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:00:10.976] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:00:11.141] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:00:11.141] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Next.js-f...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           style={{overflow-x:"hidden",overflow-y:"hidden"}}
+                          >
+                  ...
+
+[00:00:11.911] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:00.329] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/news-list'
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/news-list' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:00.389] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/news-list'
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/news-list' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:00.539] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/news-list'
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/news-list' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:03.910] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/news-list'
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/news-list' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:05.379] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/news-list'
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/news-list' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:05.380] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/news-list'
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/news-list' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:05.618] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/newslist.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:05.918] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/newslist.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:21.916] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/newslist.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:21.917] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/newslist.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:22.291] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/newslist'
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/newslist' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:22.300] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/newslist'
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/newslist' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:24.079] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/newslist'
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/newslist' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:24.102] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Module not found: Can't resolve '@/components/newslist'
+> 1 | import NewsList from '@/components/newslist';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+Import map: aliased to relative './components/newslist' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:26.909] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:26.909] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:08:38.937] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:08:38.943] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js:1:1
+Export default doesn't exist in target module
+> 1 | import NewsList from '@/components/news-list';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { getLatestNews } from '@/lib/news';
+  3 |
+  4 | export default function LatestNewsPage() {
+
+The export default was not found in module [project]/Next.js-for-Routing-And-Page-Rendiring/components/news-list.js [app-rsc] (ecmascript).
+Did you mean to import getAvailableNewsYears?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:09:15.584] Server  LOG     ✓ Compiled in 257ms
+[00:09:19.695] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:29.590] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:35.988] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:36.252] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:36.300] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:36.300] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:36.384] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:36.886] Browser ERROR   uncaughtError: Error: ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.163] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:37.163] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:37.916] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:37.916] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:37.916] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:37.916] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:37.916] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[year]/page.js:2:1
+Module not found: Can't resolve '@/components/NewsList'
+  1 | // app/archive/@archive/[year]/page.js
+> 2 | import NewsList from '@/components/NewsList';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { getNewsForYear } from '@/lib/news';
+  4 |
+  5 | export default function FilteredNewsPage({ params }) {
+
+Import map: aliased to relative './components/NewsList' inside of [project]/Next.js-for-Routing-And-Page-Rendiring
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:10.316] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:11:11.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:20.779] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:11:24.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:28.254] Server  WARN    Error: Route "/archive/[year]" used `params.year`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis

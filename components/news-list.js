@@ -1,22 +1,19 @@
+// components/NewsList.js
 import Link from 'next/link';
 
-export default function NewsList({ news }) {
-    return (
-    <>
-    <ul className="news-list">
-        {news.map((item) => (
-            <li key={newsItem.id}>
-                <Link href={`/news/${newsItem.slug}`}>
-           <img
-            src={`/images/news/${newsItem.image}`}
-            alt={newsItem.title}
-            />
-            <span>{newsItem.title}</span>
-            </Link>
-            </li>
-        ))}
-    </ul>
-    </>
-    );
+export default function NewsList({ news = [] }) {
+  if (!news || news.length === 0) return <p>No news available.</p>;
 
+  return (
+    <ul className="news-list">
+      {news.map(item => (
+        <li key={item.id}>
+          <Link href={`/news/${item.slug}`}>
+            <img src={`/images/news/${item.image}`} alt={item.title} />
+            <span>{item.title}</span>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
 }
