@@ -1,12 +1,10 @@
-import { DUMMY_NEWS } from "@/dummy-news";
 import { notFound } from "next/navigation";
+import { DUMMY_NEWS } from "../../../dummy-news"; // relative path
 
 export default function NewsDetailPage({ params }) {
   console.log("PARAMS:", params);
 
-  const newsItem = DUMMY_NEWS.find(
-    (newsItem) => newsItem.slug === params.slug
-  );
+  const newsItem = DUMMY_NEWS?.find((newsItem) => newsItem.slug === params?.slug);
 
   if (!newsItem) {
     console.log("News not found!");
