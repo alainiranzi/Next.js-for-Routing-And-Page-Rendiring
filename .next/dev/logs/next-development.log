@@ -1,18 +1,463 @@
-[00:00:12.850] Server  LOG     ✓ Ready in 10.6s
-[00:00:18.183] Server  LOG     ○ Compiling / ...
-[00:00:24.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.825] Server  LOG     filter: undefined "News found:" []
-[00:00:54.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:58.471] Server  LOG     filter: ["2022"] "News found:" [{...},{...}]
-[00:01:06.253] Server  LOG     filter: ["2021"] "News found:" [{...}]
-[00:16:20.289] Server  LOG     ✓ Compiled in 907ms
-[00:16:21.201] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:16:21.203] Server  LOG     filter: undefined "News found:" undefined
-[00:16:21.914] Server  LOG     filter: undefined "News found:" undefined
-[00:16:35.289] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:16:35.290] Server  LOG     filter: undefined "News found:" undefined
-[00:16:38.768] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:16:38.780] Server  LOG     filter: undefined "News found:" undefined
-[00:16:40.948] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:16:40.952] Server  LOG     filter: undefined "News found:" undefined
-[00:22:13.316] Server  LOG     ✓ Compiled in 18ms
+[00:00:02.800] Server  LOG     ✓ Ready in 1927ms
+[00:00:08.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.740] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.637] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+
+
+
+./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:13:17
+Ecmascript file had an error
+  11 | }
+  12 |
+> 13 | export function getAvailableNewsYears() {
+     |                 ^^^^^^^^^^^^^^^^^^^^^
+  14 |   return DUMMY_NEWS.reduce((years, news) => {
+  15 |     const year = new Date(news.date).getFullYear();
+  16 |     if (!years.includes(year)) years.push(year);
+
+the name `getAvailableNewsYears` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+
+
+
+./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:32:17
+Ecmascript file had an error
+  30 | }
+  31 |
+> 32 | export function getNewsForYear(year) {
+     |                 ^^^^^^^^^^^^^^
+  33 |   return DUMMY_NEWS.filter(news => new Date(news.date).getFullYear() === +year);
+  34 | }
+  35 |
+
+the name `getNewsForYear` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+
+
+[00:00:22.843] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:22.843] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:13:17
+Ecmascript file had an error
+  11 | }
+  12 |
+> 13 | export function getAvailableNewsYears() {
+     |                 ^^^^^^^^^^^^^^^^^^^^^
+  14 |   return DUMMY_NEWS.reduce((years, news) => {
+  15 |     const year = new Date(news.date).getFullYear();
+  16 |     if (!years.includes(year)) years.push(year);
+
+the name `getAvailableNewsYears` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:22.843] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:32:17
+Ecmascript file had an error
+  30 | }
+  31 |
+> 32 | export function getNewsForYear(year) {
+     |                 ^^^^^^^^^^^^^^
+  33 |   return DUMMY_NEWS.filter(news => new Date(news.date).getFullYear() === +year);
+  34 | }
+  35 |
+
+the name `getNewsForYear` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:23.357] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:23.357] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:13:17
+Ecmascript file had an error
+  11 | }
+  12 |
+> 13 | export function getAvailableNewsYears() {
+     |                 ^^^^^^^^^^^^^^^^^^^^^
+  14 |   return DUMMY_NEWS.reduce((years, news) => {
+  15 |     const year = new Date(news.date).getFullYear();
+  16 |     if (!years.includes(year)) years.push(year);
+
+the name `getAvailableNewsYears` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:23.357] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:32:17
+Ecmascript file had an error
+  30 | }
+  31 |
+> 32 | export function getNewsForYear(year) {
+     |                 ^^^^^^^^^^^^^^
+  33 |   return DUMMY_NEWS.filter(news => new Date(news.date).getFullYear() === +year);
+  34 | }
+  35 |
+
+the name `getNewsForYear` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:23.608] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:23.608] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:13:17
+Ecmascript file had an error
+  11 | }
+  12 |
+> 13 | export function getAvailableNewsYears() {
+     |                 ^^^^^^^^^^^^^^^^^^^^^
+  14 |   return DUMMY_NEWS.reduce((years, news) => {
+  15 |     const year = new Date(news.date).getFullYear();
+  16 |     if (!years.includes(year)) years.push(year);
+
+the name `getAvailableNewsYears` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:23.608] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:32:17
+Ecmascript file had an error
+  30 | }
+  31 |
+> 32 | export function getNewsForYear(year) {
+     |                 ^^^^^^^^^^^^^^
+  33 |   return DUMMY_NEWS.filter(news => new Date(news.date).getFullYear() === +year);
+  34 | }
+  35 |
+
+the name `getNewsForYear` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:24.166] Server  ERROR   ⨯ ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+
+
+
+./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:13:17
+Ecmascript file had an error
+  11 | }
+  12 |
+> 13 | export function getAvailableNewsYears() {
+     |                 ^^^^^^^^^^^^^^^^^^^^^
+  14 |   return DUMMY_NEWS.reduce((years, news) => {
+  15 |     const year = new Date(news.date).getFullYear();
+  16 |     if (!years.includes(year)) years.push(year);
+
+the name `getAvailableNewsYears` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+
+
+
+./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:32:17
+Ecmascript file had an error
+  30 | }
+  31 |
+> 32 | export function getNewsForYear(year) {
+     |                 ^^^^^^^^^^^^^^
+  33 |   return DUMMY_NEWS.filter(news => new Date(news.date).getFullYear() === +year);
+  34 | }
+  35 |
+
+the name `getNewsForYear` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+
+
+[00:00:24.677] Browser ERROR   uncaughtError: Error: ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+
+
+[00:00:24.946] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:24.946] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:13:17
+Ecmascript file had an error
+  11 | }
+  12 |
+> 13 | export function getAvailableNewsYears() {
+     |                 ^^^^^^^^^^^^^^^^^^^^^
+  14 |   return DUMMY_NEWS.reduce((years, news) => {
+  15 |     const year = new Date(news.date).getFullYear();
+  16 |     if (!years.includes(year)) years.push(year);
+
+the name `getAvailableNewsYears` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:24.946] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:32:17
+Ecmascript file had an error
+  30 | }
+  31 |
+> 32 | export function getNewsForYear(year) {
+     |                 ^^^^^^^^^^^^^^
+  33 |   return DUMMY_NEWS.filter(news => new Date(news.date).getFullYear() === +year);
+  34 | }
+  35 |
+
+the name `getNewsForYear` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:24.947] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:21:17
+Ecmascript file had an error
+  19 | }
+  20 |
+> 21 | export function getAvailableNewsMonths(year) {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^
+  22 |   return DUMMY_NEWS.reduce((months, news) => {
+  23 |     const newsYear = new Date(news.date).getFullYear();
+  24 |     if (newsYear === +year) {
+
+the name `getAvailableNewsMonths` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:24.947] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:13:17
+Ecmascript file had an error
+  11 | }
+  12 |
+> 13 | export function getAvailableNewsYears() {
+     |                 ^^^^^^^^^^^^^^^^^^^^^
+  14 |   return DUMMY_NEWS.reduce((years, news) => {
+  15 |     const year = new Date(news.date).getFullYear();
+  16 |     if (!years.includes(year)) years.push(year);
+
+the name `getAvailableNewsYears` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:00:24.947] Browser ERROR   ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js:32:17
+Ecmascript file had an error
+  30 | }
+  31 |
+> 32 | export function getNewsForYear(year) {
+     |                 ^^^^^^^^^^^^^^
+  33 |   return DUMMY_NEWS.filter(news => new Date(news.date).getFullYear() === +year);
+  34 | }
+  35 |
+
+the name `getNewsForYear` is defined multiple times
+
+Import traces:
+  #1 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@archive/[[...filter]]/page.js
+
+  #2 [Server Component]:
+    ./Next.js-for-Routing-And-Page-Rendiring/lib/news.js
+    ./Next.js-for-Routing-And-Page-Rendiring/app/archive/@latest/default.js
+[00:04:07.891] Server  LOG     ✓ Compiled in 91ms
+[00:04:11.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
