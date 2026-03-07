@@ -1,7 +1,7 @@
-[00:00:04.779] Server  LOG     ✓ Ready in 3.6s
-[00:00:08.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:21.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:37.376] Server  ERROR   ⨯ ReferenceError: getNewsForYearAndMonth is not defined
-[00:00:37.661] Browser ERROR   uncaughtError: ReferenceError: getNewsForYearAndMonth is not defined
-[00:02:44.815] Server  LOG     ✓ Compiled in 277ms
-[00:02:50.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.805] Server  LOG     ✓ Ready in 2.5s
+[00:00:07.851] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.535] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.507] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:42.593] Server  LOG     ✓ Compiled in 399ms
+[00:04:43.652] Server  WARN    Error: Route "/news/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:57.082] Server  LOG     ✓ Compiled in 54ms
