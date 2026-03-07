@@ -1,28 +1,18 @@
-[00:00:05.019] Server  LOG     ✓ Ready in 3.4s
-[00:00:21.376] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:33.641] Server  LOG     Year: undefined "News found:" []
-[00:00:35.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:54.849] Server  LOG     ✓ Compiled in 787ms
-[00:04:55.778] Server  LOG     filter: undefined "News found:" []
-[00:05:05.092] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:05:05.093] Server  LOG     filter: undefined "News found:" []
-[00:05:11.608] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:05:11.609] Server  LOG     filter: undefined "News found:" []
-[00:05:16.836] Server  LOG     filter: undefined "News found:" []
-[00:05:17.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:43.667] Server  LOG     ✓ Compiled in 500ms
-[00:09:55.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:59.954] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:10:05.887] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:10:08.305] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:19:15.818] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:19:16.178] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:19:48.281] Server  LOG     ✓ Compiled in 213ms
-[00:19:49.173] Server  LOG     filter: undefined "News found:" []
-[00:19:49.377] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:19:49.380] Server  LOG     filter: undefined "News found:" []
-[00:20:00.838] Server  LOG     filter: ["2024"] "News found:" [{...},{...}]
-[00:20:01.134] Server  LOG     filter: undefined "News found:" []
-[00:20:24.001] Server  LOG     filter: ["2024"] "News found:" [{...},{...}]
-[00:20:24.175] Server  LOG     filter: ["2024"] "News found:" [{...},{...}]
-[00:20:24.267] Server  LOG     filter: undefined "News found:" []
+[00:00:12.850] Server  LOG     ✓ Ready in 10.6s
+[00:00:18.183] Server  LOG     ○ Compiling / ...
+[00:00:24.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:53.825] Server  LOG     filter: undefined "News found:" []
+[00:00:54.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.471] Server  LOG     filter: ["2022"] "News found:" [{...},{...}]
+[00:01:06.253] Server  LOG     filter: ["2021"] "News found:" [{...}]
+[00:16:20.289] Server  LOG     ✓ Compiled in 907ms
+[00:16:21.201] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:16:21.203] Server  LOG     filter: undefined "News found:" undefined
+[00:16:21.914] Server  LOG     filter: undefined "News found:" undefined
+[00:16:35.289] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:16:35.290] Server  LOG     filter: undefined "News found:" undefined
+[00:16:38.768] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:16:38.780] Server  LOG     filter: undefined "News found:" undefined
+[00:16:40.948] Server  WARN    Error: Route "/archive/[[...filter]]" used `params.filter`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:16:40.952] Server  LOG     filter: undefined "News found:" undefined
+[00:22:13.316] Server  LOG     ✓ Compiled in 18ms
